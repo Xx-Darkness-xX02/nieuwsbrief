@@ -25,8 +25,24 @@ if ($result) {
     echo $tussenvoegsel . '<br>';
     echo $achternaam . '<br>';
     echo $mailadres . '<br>';
+    echo '<button><a href="index.php">home</a></button>';
 } else{
     echo 'sorry er is iets misgegaan probeer het opnieuw';
 }
 
 ?>
+
+<style>
+    a{
+        text-decoration: none;
+        color red;
+    }
+
+    a:hover{
+        color: white;
+    }
+
+    button:hover{
+        background-color: black;
+    }
+</style>

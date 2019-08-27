@@ -31,5 +31,5 @@ $result = mysqli_query($dbc, $query) or die ('error query (DELETE)');
 // connectie verbreken
 mysqli_close($dbc);
 // verslag doen van het resultaat
-echo 'Het mailadres:' . $mailadres . 'is verwijderd uit de database<br><br>';
+echo 'Het mailadres:' . $mailadres . ' is verwijderd uit de database<br><br>';
 echo '<a href="index.php">Klik hier om terug te keren naar de homepage.</a>';
